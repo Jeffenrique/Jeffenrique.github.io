@@ -112,7 +112,7 @@ header a {
 /*INÍCIO CARROSSEL*/
 .container{
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -138,33 +138,18 @@ header a {
 /*FIM DO CARROSSEL*/
 
 /*INÍCIO CONTEÚDOS ADICIONAIS*/
-div.box{    
-    position: relative;
+
+.box-img{  
     width: 100%;
-    max-width: 1920px;
-    height: auto;
     margin-top: 40%;
+    text-align: center;
 }
 
-.img-1.img-2.img-3{
-    width: 100%;
-    height: auto;
+img.conteudo:hover{
+    border: 3px solid #00BFFF;
+    transition: 0.3s;
 }
 
-.conteudo-1{
-    padding: 0px 0px 0px 250px;
-    display: inline;
-}
-
-.conteudo-2{
-    float: left;
-    padding: 0px 0px 0px 250px;
-}
-
-.conteudo-3{
-    float: left;
-    padding: 0px 0px 0px 250px;
-}
 /*FIM CONTEÚDOS ADICIONAIS*/
 
 
