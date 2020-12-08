@@ -85,53 +85,28 @@ header a {
     display: block;
 }
 
-/* CONFIGURAÇÕES DA class "modalidades" */
-.modalidades {
-    display: inline-block;
-}
-/* CONFIGURAÇÕES DA class "modalidades" NA TAG "img" DA TAG "a" */
-.modalidades a img{
-    height: 100px ;
-    width: 300px;        
-    padding: 1px 10px;
-}
-
-/* CONFIGURAÇÕES DA class "menu" NA TAG "a" DA TAG "li" DA TAG "ul"*/
-
-.modalidades table{
-    width: 100%;
-    margin-bottom : .5em;
-    table-layout: fixed;
+.paragrafo h1{
     text-align: center;
 }
-
-.modalidades table td th {
-    padding: .7em;
-    margin: 0;
-    /*border: 1px solid #ccc;*/
+.paragrafo p{
     text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    float:left;
+    font: 105% sans-serif;
+    width: 509px;
+    margin:2%;
+    padding:10px 30px;
+    border: 1px solid #ccc;
+}
+.paragrafo img{
+    float: right;
+    width: 700px;
+    height: 473px;
+    overflow: hidden;
+    margin: 25px;
+}
 
-}
-  .modalidades td{
-    font-weight:bold;
-    /*background-color: #EEE;*/
-}
-    
-.modalidades table td{
-   text-align: center;
-   padding: 5px;
-}
-.modalidades table td a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1f3de8;
-    padding: 5px;
- }
 
- .modalidades table td li{
-    list-style-type: none;
-    
- }
 
  /*footer*/
 
