@@ -118,8 +118,8 @@ header a {
 
 #carrossel{
     width: 100%;
-    max-width: 1999px;
-    max-height: 1033px;
+    max-width: 1920px;
+    max-height: 700px;
     position: relative;
 }
 
